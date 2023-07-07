@@ -1,5 +1,5 @@
 #include<stdio.h>
-//#define _crt_secure_no_warings
+//#define s_CRT_SECURE_NO_WARNINGS
 int main() {
 	int arr[100][100];
 	int n, m;
