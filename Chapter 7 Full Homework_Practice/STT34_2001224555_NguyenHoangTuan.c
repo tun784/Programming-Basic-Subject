@@ -64,14 +64,14 @@ void title() {
 	printf("38. Viet ham tim gia tri phan tu xuat hien nhieu nhat trong mang, neu co nhieu phan tu co so lan xuat hien bang nhau thi xuat phan tu dau tien.	\n");	Sleep(10);
 	printf("39. Viet ham kiem tra mang co phai la mang tang khong 	\n");	Sleep(10);
 	printf("40. Tim 'so chan nho nhat' trong mang. Neu mang khong co gia tri chan thi tra ve -1. \n");	Sleep(10);
-	printf("41. Tim ìmot vi tri ma gia tri tai vi tri do la gia tri nho nhatî trong. 	\n");	Sleep(10);
+	printf("41. Tim ‚Äúmot vi tri ma gia tri tai vi tri do la gia tri nho nhat‚Äù trong. 	\n");	Sleep(10);
 	textcolor(12);
 	printf("Phan chuoi ky tu	\n");	Sleep(10);
 	textcolor(14);
 	printf("Nhap vao chuoi ho ten,	\n");	Sleep(10);
 	printf("42. Xuat ho cua chuoi do.	\n");	Sleep(10);
-	printf("43. Kiem tra chuoi tren co phai ten la ìtanî. 44. Xuat tung thanh phan cua ho ten: ho, ten lot, ten	\n");	Sleep(10);
-	printf("45. Gia su ten nhap vao deu co ten lot la ìThiî hoac ìVanî. Hay cho biet ten nhap vao la ten nam hay nu.	\n");	Sleep(10);
+	printf("43. Kiem tra chuoi tren co phai ten la ‚Äútan‚Äù. 44. Xuat tung thanh phan cua ho ten: ho, ten lot, ten	\n");	Sleep(10);
+	printf("45. Gia su ten nhap vao deu co ten lot la ‚ÄúThi‚Äù hoac ‚ÄúVan‚Äù. Hay cho biet ten nhap vao la ten nam hay nu.	\n");	Sleep(10);
 	printf("46. Cho 2 chuoi si va s2:	\n");	Sleep(10);
 	printf("47. Kiem tra xem chuoi s2 co la con cua s1, hoac nguoc lai.	\n");	Sleep(10);
 	printf("48. Tim cac tu xuat hien trong ca 2 chuoi.	\n");	Sleep(10);
