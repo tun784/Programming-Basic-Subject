@@ -1,5 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <conio.h>
 #include <math.h>
 #include <string.h>
 
@@ -18,19 +18,16 @@ typedef struct HocSinh{
 
 void input(int a[], int n){
 	HocSinh hs;
-	for (int i = 0; i < n; i++)
-	{
+	flushStdin();
+
+	for (int i = 0; i < n; i++){
 		printf("Hoc sinh thu %d:\n",i+1);
-		flushStdin();
-		printf("MSHS: "); gets_s(hs.mshs,10);
-		flushStdin();
-		printf("Ho va ten hoc sinh: "); gets_s(hs.hoten,35);
-		flushStdin();
+		printf("MSHS: "); gets(hs.mshs);
+		printf("Ho va ten hoc sinh: "); gets(hs.hoten);
 		printf("Nam sinh: "); scanf_s("%d",&hs.namsinh);
-		flushStdin();
 		printf("Gioi tinh(Nam: 1, Nu: 0): "); scanf_s("%d",&hs.gioiTinh);
 		flushStdin();
-		printf("Ma lop: "); gets_s(hs.malop,25);
+		printf("Ma lop: "); gets(hs.malop);
 	}
 }
 int kiemtrahs(char ten[]){
@@ -50,12 +47,13 @@ int demhs(int n){
 	return dem;
 }
 int main(){
+	printf("Hello world\n");
 	HocSinh hs;
 	int n, gioiTinh, a[50];
 	char ten[25];
 	printf("Nhap so luong hoc sinh: "); scanf_s("%d",&n);
 	input(a,n);
-	printf("Nhap ten hoc sinh can tim: "); gets_s(ten,35);
+	printf("Nhap ten hoc sinh can tim: "); gets(ten);
 	if (kiemtrahs(ten) == 1)
 		printf("Co\n");
 	else
